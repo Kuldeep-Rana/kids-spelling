@@ -116,7 +116,7 @@ function App() {
       />
 
       {/* Cheer sound */}
-      <audio ref={audioRef} src="/cheer.mp3" preload="auto" />
+      <audio ref={audioRef} src="./cheer.mp3" preload="auto" />
 
       {/* Category menu */}
       <div className="menu">
